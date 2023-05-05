@@ -16,7 +16,12 @@
  */
 
 #pragma once
+
 #define COMBO_COUNT 2
+#define ONESHOT_TAP_TOGGLE 5
+#define ONESHOT_TIMEOUT 5000
+#define TAPPING_TERM 300
+
 #ifdef RGB_MATRIX_ENABLE
 //#    define SPLIT_TRANSPORT_MIRROR
 #   define RGB_MATRIX_KEYPRESSES // reacts to keypresses
